@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "question": "What is the refund policy for new subscriptions?",
+    "expected_document": "Billing_and_Refund_Policy.pdf",
+    "expected_keywords": ["14-day", "refund", "guarantee"],
+    "ticket_title": "Requesting a refund for my subscription",
+    "ticket_description": "I purchased yesterday but want to request a full refund according to the policy.",
+    "expected_ticket_category": "billing"
+  },
+  {
+    "id": 2,
+    "question": "How long does a refund take to appear on my bank statement?",
+    "expected_document": "Billing_and_Refund_Policy.pdf",
+    "expected_keywords": ["3 to 5", "business days"],
+    "ticket_title": "When will my refund be processed and credited?",
+    "ticket_description": "Support said my refund was approved but I have not seen it on my invoice or statement.",
+    "expected_ticket_category": "billing"
+  },
+  {
+    "id": 3,
+    "question": "What are the subscription tiers and pricing options?",
+    "expected_document": "Billing_and_Refund_Policy.pdf",
+    "expected_keywords": ["29", "290", "monthly", "annual"],
+    "ticket_title": "Billing inquiry about annual versus monthly plans",
+    "ticket_description": "I would like to know the cost difference and discount for annual billing.",
+    "expected_ticket_category": "billing"
+  },
+  {
+    "id": 4,
+    "question": "What happens if my payment fails?",
+    "expected_document": "Billing_and_Refund_Policy.pdf",
+    "expected_keywords": ["grace period", "7 days", "re-attempts"],
+    "ticket_title": "Credit card payment failed on renewal",
+    "ticket_description": "My credit card was declined for the subscription payment charge.",
+    "expected_ticket_category": "billing"
+  },
+  {
+    "id": 5,
+    "question": "How do prorated upgrades work?",
+    "expected_document": "Billing_and_Refund_Policy.pdf",
+    "expected_keywords": ["upgrading", "credited", "balance"],
+    "ticket_title": "Prorated charge on invoice after plan upgrade",
+    "ticket_description": "I upgraded mid-month and need an explanation of the charge on my invoice.",
+    "expected_ticket_category": "billing"
+  },
+  {
+    "id": 6,
+    "question": "How do I enable two-factor authentication?",
+    "expected_document": "Account_and_Security_Guide.pdf",
+    "expected_keywords": ["2FA", "TOTP", "authenticator", "QR code"],
+    "ticket_title": "Need help setting up two-factor authentication",
+    "ticket_description": "Where in the security settings do I scan the QR code for 2fa authenticator?",
+    "expected_ticket_category": "security"
+  },
+  {
+    "id": 7,
+    "question": "What are the password requirements?",
+    "expected_document": "Account_and_Security_Guide.pdf",
+    "expected_keywords": ["8 characters", "letters", "numbers"],
+    "ticket_title": "Password reset error validation",
+    "ticket_description": "I tried to reset my password but it says my credentials do not meet requirements.",
+    "expected_ticket_category": "account"
+  },
+  {
+    "id": 8,
+    "question": "How long is a password reset link valid for?",
+    "expected_document": "Account_and_Security_Guide.pdf",
+    "expected_keywords": ["30 minutes", "reset link"],
+    "ticket_title": "Password reset email link expired",
+    "ticket_description": "The link in my email expired before I could login to my account.",
+    "expected_ticket_category": "account"
+  },
+  {
+    "id": 9,
+    "question": "Why is my account locked after failed login attempts?",
+    "expected_document": "Account_and_Security_Guide.pdf",
+    "expected_keywords": ["5 consecutive", "15 minutes", "locked"],
+    "ticket_title": "My user account is locked",
+    "ticket_description": "I typed the wrong password multiple times and now my login is locked.",
+    "expected_ticket_category": "account"
+  },
+  {
+    "id": 10,
+    "question": "How long does a JWT access token last before expiring?",
+    "expected_document": "Account_and_Security_Guide.pdf",
+    "expected_keywords": ["60 minutes", "JWT", "expire"],
+    "ticket_title": "Session authentication timeout after 1 hour",
+    "ticket_description": "I keep getting logged out after 60 minutes of inactivity due to token expiration.",
+    "expected_ticket_category": "account"
+  },
+  {
+    "id": 11,
+    "question": "What is the maximum supported PDF file size for upload?",
+    "expected_document": "Technical_Troubleshooting_Manual.pdf",
+    "expected_keywords": ["50 MB", "file size", "maximum"],
+    "ticket_title": "Upload failure: file size error",
+    "ticket_description": "My 60MB PDF document failed to upload with a 413 payload too large error.",
+    "expected_ticket_category": "technical"
+  },
+  {
+    "id": 12,
+    "question": "Which web browsers are supported by Orbit?",
+    "expected_document": "Technical_Troubleshooting_Manual.pdf",
+    "expected_keywords": ["Chrome", "Firefox", "Edge", "Safari"],
+    "ticket_title": "Browser compatibility issue with older IE",
+    "ticket_description": "The dashboard fails to load and has an error glitch in our legacy browser.",
+    "expected_ticket_category": "technical"
+  },
+  {
+    "id": 13,
+    "question": "Can I upload scanned image-only PDFs?",
+    "expected_document": "Technical_Troubleshooting_Manual.pdf",
+    "expected_keywords": ["extractable text", "scanned", "not supported"],
+    "ticket_title": "Uploaded PDF has no text extracted",
+    "ticket_description": "My uploaded document has 0 chunks extracted because it is a scanned image.",
+    "expected_ticket_category": "technical"
+  },
+  {
+    "id": 14,
+    "question": "What embedding model does Orbit use for vector search?",
+    "expected_document": "Technical_Troubleshooting_Manual.pdf",
+    "expected_keywords": ["all-MiniLM-L6-v2", "384-dimensional", "dense"],
+    "ticket_title": "Technical documentation question on vector dimension",
+    "ticket_description": "We want to know the embedding model and vector search dimension for integration.",
+    "expected_ticket_category": "technical"
+  },
+  {
+    "id": 15,
+    "question": "What chunk size and overlap are used for indexing?",
+    "expected_document": "Technical_Troubleshooting_Manual.pdf",
+    "expected_keywords": ["500-word", "50-word overlap"],
+    "ticket_title": "Chunking parameters technical question",
+    "ticket_description": "Can we configure the chunk window and overlap parameters for PDF ingestion?",
+    "expected_ticket_category": "technical"
+  },
+  {
+    "id": 16,
+    "question": "How can I request complete erasure of my data under GDPR?",
+    "expected_document": "Account_and_Security_Guide.pdf",
+    "expected_keywords": ["GDPR", "erasure", "privacy@orbit.dev"],
+    "ticket_title": "GDPR data deletion request",
+    "ticket_description": "Please delete all my account data and personal records under GDPR compliance.",
+    "expected_ticket_category": "security"
+  },
+  {
+    "id": 17,
+    "question": "How do I cancel my subscription and close my account?",
+    "expected_document": "Billing_and_Refund_Policy.pdf",
+    "expected_keywords": ["cancel", "cancellation", "dashboard"],
+    "ticket_title": "I want to cancel my subscription",
+    "ticket_description": "Please terminate my subscription and cancel all future billing immediately.",
+    "expected_ticket_category": "cancellation"
+  },
+  {
+    "id": 18,
+    "question": "Will I keep access to Orbit after cancelling my subscription?",
+    "expected_document": "Billing_and_Refund_Policy.pdf",
+    "expected_keywords": ["retain access", "end of the current", "billing period"],
+    "ticket_title": "Access after cancellation notice",
+    "ticket_description": "If I cancel today, do I retain access until the end of the paid billing month?",
+    "expected_ticket_category": "cancellation"
+  },
+  {
+    "id": 19,
+    "question": "How do I terminate all active sessions across my devices?",
+    "expected_document": "Account_and_Security_Guide.pdf",
+    "expected_keywords": ["Revoke All Sessions", "Security"],
+    "ticket_title": "Suspicious login from unknown device",
+    "ticket_description": "I noticed an unauthorized session and want to revoke all active logins immediately.",
+    "expected_ticket_category": "security"
+  },
+  {
+    "id": 20,
+    "question": "How is uploaded documentation encrypted at rest and in transit?",
+    "expected_document": "Account_and_Security_Guide.pdf",
+    "expected_keywords": ["AES-256", "TLS 1.3", "encrypted"],
+    "ticket_title": "Security compliance and encryption standard inquiry",
+    "ticket_description": "Our compliance officer requires details about AES-256 encryption at rest.",
+    "expected_ticket_category": "security"
+  },
+  {
+    "id": 21,
+    "question": "Where can I download my tax receipts and invoices?",
+    "expected_document": "Billing_and_Refund_Policy.pdf",
+    "expected_keywords": ["tax receipts", "Account Settings", "Billing"],
+    "ticket_title": "Need tax receipt invoice for company reimbursement",
+    "ticket_description": "Where can I download the formal PDF tax receipt for last month's charge?",
+    "expected_ticket_category": "billing"
+  },
+  {
+    "id": 22,
+    "question": "Can I get a refund if I downgrade my plan mid-cycle?",
+    "expected_document": "Billing_and_Refund_Policy.pdf",
+    "expected_keywords": ["No partial refunds", "downgrading", "next billing cycle"],
+    "ticket_title": "Refund request for mid-cycle downgrade",
+    "ticket_description": "I downgraded my plan yesterday and would like a refund for the unused days.",
+    "expected_ticket_category": "billing"
+  },
+  {
+    "id": 23,
+    "question": "What should I check if my PDF upload fails with an error?",
+    "expected_document": "Technical_Troubleshooting_Manual.pdf",
+    "expected_keywords": ["50 MB", "password-protected", "corrupted", "text"],
+    "ticket_title": "PDF upload broken and fails every time",
+    "ticket_description": "Getting an error bug whenever I attempt to upload our employee handbook PDF.",
+    "expected_ticket_category": "technical"
+  },
+  {
+    "id": 24,
+    "question": "We would like to request support for dark theme and export to Excel",
+    "expected_document": "Technical_Troubleshooting_Manual.pdf",
+    "expected_keywords": ["Orbit", "support"],
+    "ticket_title": "Feature request: add export to excel",
+    "ticket_description": "We would like to suggest an improvement to export ticket reports to xlsx format.",
+    "expected_ticket_category": "feature"
+  },
+  {
+    "id": 25,
+    "question": "How can I unlock my account if I cannot wait 15 minutes?",
+    "expected_document": "Account_and_Security_Guide.pdf",
+    "expected_keywords": ["security@orbit.dev", "identity verification"],
+    "ticket_title": "Urgent account lockout unlock request",
+    "ticket_description": "My account is locked out and I cannot wait 15 minutes to log back in.",
+    "expected_ticket_category": "account"
+  }
+]

@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Environment files (never commit real secrets)
+.env
+backend/.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# FAISS index files
+backend/data/
+
+# Uploaded documents
+backend/data/uploads/
+
+# Test artifacts
+backend/data/test_uploads/
+backend/data/test_faiss/
+test_orbit.db
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# Vite
+frontend/.vite/
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# Sentence Transformers model cache (can be large)
+# Uncomment if you want to gitignore the downloaded models
+# ~/.cache/huggingface/
+
+# Local environment and editor files
+.env.*
+!.env.example
+
+# Python cache
+.pytest_cache/
